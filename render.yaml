@@ -2,10 +2,9 @@ services:
   - type: web
     name: backPorFinDormimos
     env: node
-    buildCommand: npm run build
-    startCommand: npm run start
     plan: free
     region: frankfurt
-    autoDeploy: true
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
     build:
       bun: false
