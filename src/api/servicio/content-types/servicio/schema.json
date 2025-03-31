@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicios",
+  "info": {
+    "singularName": "servicio",
+    "pluralName": "servicios",
+    "displayName": "Servicio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
